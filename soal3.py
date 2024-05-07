@@ -1,11 +1,9 @@
 barang = int(input("masukan jumlah barang "))
 
-harga = []
 total = 0
 
 for i in range(barang):
-    harga = int(input("masukan harga "))
-    harga.append(harga)
-    total += price
+    harga = float(input("masukan harga "))
+    total += harga
 
 print("Total harga: ",total)
