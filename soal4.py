@@ -1,9 +1,9 @@
 
 def operasi():
     while True: 
-        main = int(input('Masukan Berat badan '))
-        main2 = int(input('Masukan tinggi badan '))
-        hasil = main/main2
+        main = float(input('Masukan Berat badan '))
+        main2 = float(input('Masukan tinggi badan '))
+        hasil = main/(main2**2)
         if hasil < 18.5:
          print(f'berat badan = {main}')
          print(f'tinggi badan = {main2}')
